@@ -6,7 +6,8 @@
 //  Copyright © 2016 Mark Caldropoli. All rights reserved.
 //
 
-import UIKit //Module
+import UIKit
+//UIKit is a module
 
 class ViewController: UIViewController { //Definition of a Class
     
@@ -27,7 +28,7 @@ class ViewController: UIViewController { //Definition of a Class
             display.text = digit
         }
         userIsInTheMiddleOfTyping = true
-        // print("touched \(digit) digit")
+        //print("touched \(digit) digit")
     }
     
 }
