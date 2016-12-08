@@ -31,5 +31,12 @@ class ViewController: UIViewController { //Definition of a Class
         //print("touched \(digit) digit")
     }
     
+    @IBAction func performOperation(_ sender: UIButton) {
+        userIsInTheMiddleOfTyping = false
+        if let mathematicalSymbol = sender.currentTitle {
+            if mathematicalSymbol == "π" {
+                display.text = String(M_PI) //Converts Double to String
+            }
+        }
+    }
 }
-
